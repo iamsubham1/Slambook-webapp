@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react";
 
 const Navbar = () => {
-    const [activeLink, setActiveLink] = useState(null);
+    const [activeLink, setActiveLink] = useState("#Home");
 
     const handleLinkClick = (link) => {
         setActiveLink(link);

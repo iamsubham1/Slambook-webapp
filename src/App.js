@@ -1,7 +1,7 @@
 import './App.css';
 import Heading from './components/Heading';
 import Container from './components/Container';
-import Scroll from './components/Scroll';
+
 function App() {
   return (
 

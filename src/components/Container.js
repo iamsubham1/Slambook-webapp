@@ -5,6 +5,7 @@ import About from './About'
 import Scroll from './Scroll'
 
 const Container = () => {
+
     return (
         <>
             <Navbar />
@@ -13,7 +14,7 @@ const Container = () => {
                     <HomeText />
                     <Scroll />
                 </div>
-                <div id='About'>
+                <div id='About' >
                     <About />
                     <Scroll />
                 </div>

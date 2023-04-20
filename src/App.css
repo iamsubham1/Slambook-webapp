@@ -58,11 +58,33 @@ h6 {
 }
 
 .Homepage {
-    max-width: 700px;
+    font-family: 'Aboreto', cursive;
+    max-width: 520px;
     left: 50%;
     top: 40%;
     display: flex;
     flex-direction: column;
+}
+
+#startbutton {
+    float: right;
+    margin-top: 9px;
+    width: 300px;
+    height: 70px;
+    border: solid;
+    border-color: #FFFFFF;
+    background-color: #00000000;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+
+
+}
+
+#startbutton:hover {
+    background-color: #1a1a1a5f;
 }
 
 #container1 div#About {
@@ -90,13 +112,19 @@ h6 {
 }
 
 .abouttxt {
+    margin-left: 25px;
     padding: 10%;
     max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Aboreto', cursive;
+}
 
+.abouttxt h4 {
+    margin-top: 10px;
+    line-height: 110%;
 }
 
 #container1 div#Inspiration {

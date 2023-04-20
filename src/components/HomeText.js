@@ -1,15 +1,12 @@
-import SlideDiv from './SlideDiv'
-import LoginForm from "./LoginForm";
-import Heading from "./Heading";
-
+import React from 'react'
 
 const HomeText = () => {
 
     return (
 
         <div className='Homepage'>
-            <h6><span style={{ color: "white", fontWeight: 90 }}>welcome to the slambook</span></h6>
-            <h1>Create Yours Now</h1>
+            <h6><span style={{ fontWeight: 90, }}>welcome to the slambook</span></h6>
+            <h1>Create Yours Now<a href="/gettingstarted"><button id='startbutton'>Getting Started ⟶</button></a></h1>
         </div>
 
 
