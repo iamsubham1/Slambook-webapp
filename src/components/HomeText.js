@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import SlideDiv from './SlideDiv'
 import LoginForm from "./LoginForm";
 import Heading from "./Heading";
